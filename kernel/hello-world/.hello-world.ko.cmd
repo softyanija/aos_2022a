@@ -1,0 +1,1 @@
+cmd_/home/amabe/develop/kernel/hello-world/hello-world.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/amabe/develop/kernel/hello-world/hello-world.ko /home/amabe/develop/kernel/hello-world/hello-world.o /home/amabe/develop/kernel/hello-world/hello-world.mod.o;  true
